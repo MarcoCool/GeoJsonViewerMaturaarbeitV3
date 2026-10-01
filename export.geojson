@@ -1,0 +1,5314 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-10-01T12:27:40Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/172717846",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q121505",
+        "artist_name": "Alexander Zschokke",
+        "heritage": "4",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "memorial:subject": "Johann Rudolf Wettstein",
+        "memorial:subject:wikidata": "Q676457",
+        "name": "Wettsteinbrunnen",
+        "natural": "water",
+        "wikidata": "Q29686146",
+        "wikimedia_commons": "Category:Wettsteinbrunnen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5975032,
+              47.5584594
+            ],
+            [
+              7.5975306,
+              47.558449
+            ],
+            [
+              7.5975728,
+              47.5584998
+            ],
+            [
+              7.5975553,
+              47.5585065
+            ],
+            [
+              7.5975664,
+              47.5585198
+            ],
+            [
+              7.5974992,
+              47.5585453
+            ],
+            [
+              7.5974704,
+              47.5585107
+            ],
+            [
+              7.5975278,
+              47.5584889
+            ],
+            [
+              7.5975032,
+              47.5584594
+            ]
+          ]
+        ]
+      },
+      "id": "way/172717846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/533670779",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "natural": "water"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5925386,
+              47.5828658
+            ],
+            [
+              7.5925366,
+              47.5828571
+            ],
+            [
+              7.5925649,
+              47.5828543
+            ],
+            [
+              7.5925668,
+              47.582863
+            ],
+            [
+              7.5925386,
+              47.5828658
+            ]
+          ]
+        ]
+      },
+      "id": "way/533670779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/655312689",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Lohnhof-Brunnen",
+        "natural": "water",
+        "water": "drinking_fountain",
+        "wikidata": "Q72953699"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5883353,
+              47.554897
+            ],
+            [
+              7.5883464,
+              47.5548732
+            ],
+            [
+              7.5883964,
+              47.5548838
+            ],
+            [
+              7.5883923,
+              47.5548925
+            ],
+            [
+              7.5884006,
+              47.5548942
+            ],
+            [
+              7.5883974,
+              47.5549012
+            ],
+            [
+              7.5883896,
+              47.5548995
+            ],
+            [
+              7.5883858,
+              47.5549077
+            ],
+            [
+              7.5883353,
+              47.554897
+            ]
+          ]
+        ]
+      },
+      "id": "way/655312689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/722822729",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "natural": "water"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.6116688,
+              47.5599551
+            ],
+            [
+              7.611674,
+              47.5599461
+            ],
+            [
+              7.6116764,
+              47.5599448
+            ],
+            [
+              7.6116796,
+              47.5599444
+            ],
+            [
+              7.611707,
+              47.5599512
+            ],
+            [
+              7.61171,
+              47.5599532
+            ],
+            [
+              7.6117103,
+              47.5599552
+            ],
+            [
+              7.6117058,
+              47.5599639
+            ],
+            [
+              7.6117032,
+              47.5599658
+            ],
+            [
+              7.6116993,
+              47.5599661
+            ],
+            [
+              7.6116709,
+              47.559959
+            ],
+            [
+              7.6116687,
+              47.5599572
+            ],
+            [
+              7.6116688,
+              47.5599551
+            ]
+          ]
+        ]
+      },
+      "id": "way/722822729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/722830756",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Webern-Brunnen",
+        "natural": "water",
+        "wikidata": "Q72968118"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5889107,
+              47.5531649
+            ],
+            [
+              7.5888985,
+              47.5531678
+            ],
+            [
+              7.5888829,
+              47.5531631
+            ],
+            [
+              7.5888733,
+              47.5531435
+            ],
+            [
+              7.5888818,
+              47.5531332
+            ],
+            [
+              7.5888933,
+              47.5531307
+            ],
+            [
+              7.5889078,
+              47.5531353
+            ],
+            [
+              7.5889174,
+              47.5531546
+            ],
+            [
+              7.5889107,
+              47.5531649
+            ]
+          ]
+        ]
+      },
+      "id": "way/722830756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/723045063",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.5680434,
+              47.5550009
+            ],
+            [
+              7.5680465,
+              47.554973
+            ],
+            [
+              7.568127,
+              47.5549771
+            ],
+            [
+              7.568124,
+              47.5550049
+            ],
+            [
+              7.5680434,
+              47.5550009
+            ]
+          ]
+        ]
+      },
+      "id": "way/723045063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/748831664",
+        "amenity": "drinking_water",
+        "heritage": "4",
+        "name": "St. Urban-Brunnen",
+        "natural": "water",
+        "website": "http://www.brunnenfuehrer.ch/brunnen/st.urban.htm",
+        "wikidata": "Q17038215",
+        "wikimedia_commons": "Category:Urbanbrunnen, Basel"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              7.586946,
+              47.5611149
+            ],
+            [
+              7.5869377,
+              47.5611155
+            ],
+            [
+              7.5869273,
+              47.5611094
+            ],
+            [
+              7.5869272,
+              47.5611036
+            ],
+            [
+              7.5869469,
+              47.5610883
+            ],
+            [
+              7.5869538,
+              47.561088
+            ],
+            [
+              7.5869653,
+              47.5610943
+            ],
+            [
+              7.5869658,
+              47.5610995
+            ],
+            [
+              7.586946,
+              47.5611149
+            ]
+          ]
+        ]
+      },
+      "id": "way/748831664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/273223527",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5925042,
+          47.5725655
+        ]
+      },
+      "id": "node/273223527"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279852628",
+        "amenity": "drinking_water",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6217167,
+          47.5658431
+        ]
+      },
+      "id": "node/279852628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/279852787",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "drinking_water": "yes",
+        "fee": "no",
+        "man_made": "drinking_fountain",
+        "name": "Landauerbrunnen",
+        "start_date": "1946",
+        "wheelchair": "limited",
+        "wikidata": "Q72953603",
+        "wikimedia_commons": "Category:Landauerbrunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6302005,
+          47.5664036
+        ]
+      },
+      "id": "node/279852787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/290725071",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6103696,
+          47.5742902
+        ]
+      },
+      "id": "node/290725071"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/291142418",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-07-11",
+        "dog": "yes",
+        "fee": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Schöneck brunnen",
+        "operator": "Schöneck-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q29685389"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5973765,
+          47.5545569
+        ]
+      },
+      "id": "node/291142418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/575614798",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "check_date": "2026-06-01",
+        "drinking_water": "yes",
+        "fee": "no",
+        "historic": "drinking_fountain",
+        "indoor": "no",
+        "level": "0",
+        "man_made": "drinking_fountain",
+        "name": "Ölberg-Brunnen",
+        "start_date": "1866",
+        "wikidata": "Q72954483",
+        "wikimedia_commons": "Category:Ölberg-Brunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5873847,
+          47.555435
+        ]
+      },
+      "id": "node/575614798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/583590302",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "fountain": "drinking",
+        "heritage": "4",
+        "name": "Augustiner-Brunnen",
+        "wikidata": "Q29682463",
+        "wikimedia_commons": "Category:Augustinerbrunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5903491,
+          47.5579731
+        ]
+      },
+      "id": "node/583590302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/585195407",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "fountain": "bubbler",
+        "name": "Schwarzadler-Brunnen",
+        "start_date": "1866",
+        "url": "https://www.brunnenfuehrer.ch/brunnen/schwarzadler.htm",
+        "wikidata": "Q72967154"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5909007,
+          47.5625542
+        ]
+      },
+      "id": "node/585195407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/589987364",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q72936505"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.592794,
+          47.5595714
+        ]
+      },
+      "id": "node/589987364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1087368730",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q72953752"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.579822,
+          47.5603352
+        ]
+      },
+      "id": "node/1087368730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1368004115",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "Trog 1845, Figur 1863",
+        "dog": "no",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "name": "Stachelschützenbrunnen",
+        "start_date": "1845",
+        "wheelchair": "yes",
+        "wikidata": "Q72935468",
+        "wikimedia_commons": "Category:Stachelschützen-Brunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5826508,
+          47.558513
+        ]
+      },
+      "id": "node/1368004115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1455537012",
+        "amenity": "drinking_water",
+        "check_date": "2026-05-28",
+        "drinking_water": "yes",
+        "man_made": "drinking_fountain",
+        "name": "Birsstrasse-Brunnen \"Mädchen mit Katze\"",
+        "name:de": "Birsstrasse-Brunnen \"Mädchen mit Katze\"",
+        "start_date": "1946",
+        "url": "http://www.brunnenfuehrer.ch/brunnen/brisstrasse.htm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6224499,
+          47.5474956
+        ]
+      },
+      "id": "node/1455537012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1598177035",
+        "amenity": "drinking_water",
+        "check_date": "2026-03-13",
+        "man_made": "drinking_fountain",
+        "name": "Hochstrasse-Brunnen",
+        "wikidata": "Q72952898"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5925802,
+          47.5453859
+        ]
+      },
+      "id": "node/1598177035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1737520030",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "designation": "Riehentor-Brunnen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "source": "Basler Brunnenführer"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5965814,
+          47.5596889
+        ]
+      },
+      "id": "node/1737520030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1758650372",
+        "amenity": "drinking_water",
+        "check_date": "2022-01-25",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6016334,
+          47.5714079
+        ]
+      },
+      "id": "node/1758650372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1794707590",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72950948",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Bruderholzallee/Oberer Batterieweg)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5873985,
+          47.5338196
+        ]
+      },
+      "id": "node/1794707590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1835035383",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-08-03",
+        "dog": "no",
+        "drinking_water": "yes",
+        "man_made": "drinking_fountain",
+        "name": "Schindelhof-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q72966958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6032907,
+          47.5540752
+        ]
+      },
+      "id": "node/1835035383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1999602818",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951130",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Tierpark Lange Erlen)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6085476,
+          47.5741884
+        ]
+      },
+      "id": "node/1999602818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2135053541",
+        "amenity": "drinking_water",
+        "check_date": "2024-12-23",
+        "fountain": "drinking",
+        "name": "Mädchenbrunnen von Alexander Zschokke",
+        "name:de": "Mädchenbrunnen von Alexander Zschokke"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5893077,
+          47.5432764
+        ]
+      },
+      "id": "node/2135053541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2135287308",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Steinbühlplatz-Brunnen",
+        "operational_status": "broken",
+        "panoramax": "54185deb-e36c-476d-869e-1b25350b6310",
+        "wikidata": "Q72965768"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5591148,
+          47.5485963
+        ]
+      },
+      "id": "node/2135287308"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2369595667",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951108",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Bruderholzallee/Fritz Hauser-Strasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5970078,
+          47.5332917
+        ]
+      },
+      "id": "node/2369595667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2406347946",
+        "amenity": "drinking_water",
+        "check_date": "2021-08-08",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5949124,
+          47.5708375
+        ]
+      },
+      "id": "node/2406347946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2485665421",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fountain": "drinking",
+        "panoramax": "a7db6d5a-38b5-4e7e-9502-4f329c78d20f",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5746027,
+          47.5531613
+        ]
+      },
+      "id": "node/2485665421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2502582505",
+        "amenity": "drinking_water",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6088596,
+          47.5558891
+        ]
+      },
+      "id": "node/2502582505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2513404254",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951303",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Unterer Rheinweg/Oetlingerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.586501,
+          47.5672391
+        ]
+      },
+      "id": "node/2513404254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2560135624",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Pisonibrunnen",
+        "panoramax": "4775edcc-1bf6-41ee-8073-5190fa6a2876",
+        "start_date": "1784",
+        "wheelchair": "yes",
+        "wikidata": "Q29684816"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5916798,
+          47.5565926
+        ]
+      },
+      "id": "node/2560135624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2706129172",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "direction": "90",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "start_date": "1918",
+        "tourism": "artwork",
+        "wheelchair": "yes",
+        "wikidata": "Q72951070",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Engelgasse/St. Alban-Ring)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6068379,
+          47.5464064
+        ]
+      },
+      "id": "node/2706129172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3070146086",
+        "amenity": "drinking_water",
+        "check_date": "2024-12-23",
+        "fountain": "drinking",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6015883,
+          47.5390071
+        ]
+      },
+      "id": "node/3070146086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3070146087",
+        "amenity": "drinking_water",
+        "check_date": "2023-03-14",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6030408,
+          47.5391187
+        ]
+      },
+      "id": "node/3070146087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3106212292",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "operator": "IWB",
+        "panoramax": "980a56cf-2577-4afe-8f52-16d376bcdd63",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5647805,
+          47.5469387
+        ]
+      },
+      "id": "node/3106212292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3187595030",
+        "amenity": "drinking_water",
+        "check_date": "2022-02-23",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5816141,
+          47.5679828
+        ]
+      },
+      "id": "node/3187595030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3561457802",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "drinking_water": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Spalenbrunnen",
+        "panoramax": "bfb003b5-6a98-4380-bd16-37e5c7bfb87f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.582834,
+          47.5572588
+        ]
+      },
+      "id": "node/3561457802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3712266856",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Elisabethen-Brunnen",
+        "panoramax": "4f394b66-48d0-4521-8935-38c2dc25d279",
+        "wikidata": "Q29682817"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5910035,
+          47.5519932
+        ]
+      },
+      "id": "node/3712266856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3716992040",
+        "amenity": "drinking_water",
+        "check_date": "2022-06-09",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5831645,
+          47.5512777
+        ]
+      },
+      "id": "node/3716992040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3801889400",
+        "amenity": "drinking_water",
+        "check_date": "2024-07-08",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5823176,
+          47.5490788
+        ]
+      },
+      "id": "node/3801889400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3801917817",
+        "amenity": "drinking_water",
+        "check_date": "2024-06-05",
+        "drinking_water": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5857177,
+          47.5512587
+        ]
+      },
+      "id": "node/3801917817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3802309508",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "start_date": "1813"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5866371,
+          47.5549551
+        ]
+      },
+      "id": "node/3802309508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3802309509",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "bottle": "yes",
+        "colour": "darkgreen",
+        "direction": "200",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "panoramax": "e7a4d9b0-219a-4035-9005-3a10b3a8c347",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951196",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Steinenring)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5800193,
+          47.5509045
+        ]
+      },
+      "id": "node/3802309509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3811616605",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fountain": "drinking",
+        "name": "Schmiedenhof-Brunnen",
+        "panoramax": "965690a2-0c82-4693-a229-a40020a8f644",
+        "wikidata": "Q72965464"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5877646,
+          47.5568593
+        ]
+      },
+      "id": "node/3811616605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3828356884",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "name": "Fischmarktbrunnen",
+        "wikidata": "Q19362806"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5869741,
+          47.5592324
+        ]
+      },
+      "id": "node/3828356884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172906225",
+        "amenity": "drinking_water",
+        "check_date": "2026-03-26",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5831983,
+          47.574849
+        ]
+      },
+      "id": "node/4172906225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4196575491",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "direction": "280",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "start_date": "1918",
+        "tourism": "artwork",
+        "wheelchair": "yes",
+        "wikidata": "Q72951034",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (St. Jakobs-Strasse/Sevogelstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5988206,
+          47.5478503
+        ]
+      },
+      "id": "node/4196575491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4226606541",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Allschwilerplatz-Brunnen",
+        "panoramax": "ecf6b0a9-2aab-46aa-aa72-d0728954f945",
+        "start_date": "1933",
+        "wikidata": "Q61881745"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.569377,
+          47.5574789
+        ]
+      },
+      "id": "node/4226606541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4272963824",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q810149",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Oberer Rheinweg/Reverenzgässlein)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.593184,
+          47.5588958
+        ]
+      },
+      "id": "node/4272963824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278223227",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "drinking_water": "yes",
+        "fountain": "drinking",
+        "historic": "drinking_fountain",
+        "lit": "no",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q72950906"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5762482,
+          47.5631373
+        ]
+      },
+      "id": "node/4278223227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4278278391",
+        "amenity": "drinking_water",
+        "check_date": "2026-02-17",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5834844,
+          47.5712668
+        ]
+      },
+      "id": "node/4278278391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4437874912",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2024-06-05",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Dreizack-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q29685832"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5910098,
+          47.5552154
+        ]
+      },
+      "id": "node/4437874912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4442446809",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fee": "no",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5831608,
+          47.5749006
+        ]
+      },
+      "id": "node/4442446809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4855825432",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "direction": "240",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "start_date": "1918",
+        "tourism": "artwork",
+        "wheelchair": "yes",
+        "wikidata": "Q72951147",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Hardstrasse/Grellingerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.606522,
+          47.5495636
+        ]
+      },
+      "id": "node/4855825432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4865735321",
+        "amenity": "drinking_water",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.604101,
+          47.5599496
+        ]
+      },
+      "id": "node/4865735321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4865824521",
+        "amenity": "drinking_water",
+        "check_date": "2026-05-08",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5983017,
+          47.564896
+        ]
+      },
+      "id": "node/4865824521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4865827621",
+        "amenity": "drinking_water",
+        "check_date": "2021-08-18",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5991516,
+          47.5635503
+        ]
+      },
+      "id": "node/4865827621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866565222",
+        "alt_name": "Knabe mit Fisch-Brunnen",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q63655646",
+        "artist_name": "Carl Gutknecht",
+        "bottle": "yes",
+        "dog": "yes",
+        "fountain": "drinking",
+        "material": "stone",
+        "name": "Schifflände-Brunnen",
+        "panoramax": "ac9e0b42-2539-4cd8-9c78-bcc6d5838a7a",
+        "wheelchair": "yes",
+        "wikidata": "Q72965376",
+        "wikimedia_commons": "Category:Knabe mit Fisch (Carl Gutknecht)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5881313,
+          47.5600495
+        ]
+      },
+      "id": "node/4866565222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5067468421",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "direction": "west",
+        "dog": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6024739,
+          47.558684
+        ]
+      },
+      "id": "node/5067468421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5108309523",
+        "amenity": "drinking_water",
+        "lit": "no",
+        "man_made": "drinking_fountain",
+        "name": "Birskopf-Brunnen",
+        "wikidata": "Q72951637"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6155241,
+          47.5573563
+        ]
+      },
+      "id": "node/5108309523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5129943423",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "name": "Samson und Delila-Brunnen",
+        "panoramax": "4e7e17b0-e87e-4912-95fd-3d7310a11e5c",
+        "wikidata": "Q29685311"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5895401,
+          47.5549422
+        ]
+      },
+      "id": "node/5129943423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5129965922",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "96e4883f-8c28-4aa0-adec-9dd963c84e76"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.588042,
+          47.5579749
+        ]
+      },
+      "id": "node/5129965922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5171837777",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Wasserturm-Brunnen",
+        "wikidata": "Q72968073"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5925398,
+          47.5283338
+        ]
+      },
+      "id": "node/5171837777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5377793924",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "bottle": "yes",
+        "colour": "darkgreen",
+        "direction": "180",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951179",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Leimenstrasse/Eulerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5826242,
+          47.5542646
+        ]
+      },
+      "id": "node/5377793924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5561455868",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Helvetiaplatz-Brunnen",
+        "panoramax": "e2601e56-86bd-40cb-bb24-11bd8745e734",
+        "wikidata": "Q72952825"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5672058,
+          47.559969
+        ]
+      },
+      "id": "node/5561455868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5650144758",
+        "amenity": "drinking_water",
+        "artwork_type": "sculpture",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskbrunnen",
+        "sculpture": "basilisk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6011213,
+          47.5750126
+        ]
+      },
+      "id": "node/5650144758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5651470921",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.578144,
+          47.5474089
+        ]
+      },
+      "id": "node/5651470921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5654715008",
+        "amenity": "drinking_water",
+        "man_made": "water_well",
+        "pump": "manual"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6046156,
+          47.5744131
+        ]
+      },
+      "id": "node/5654715008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5677241054",
+        "access": "yes",
+        "alt_name": "Nischenbrunnen Spalenberg",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "covered": "yes",
+        "dog": "no",
+        "fountain": "drinking",
+        "heritage": "4",
+        "material": "stone",
+        "name": "Johannes der Täufer-Nischenbrunnen",
+        "source:url": "http://www.brunnenfuehrer.ch/brunnen/spalenberg.htm",
+        "wheelchair": "no",
+        "wikidata": "Q29684753",
+        "wikimedia_commons": "Category:Nischenbrunnen Spalenberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5844762,
+          47.5568988
+        ]
+      },
+      "id": "node/5677241054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5700864085",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fountain": "bubbler",
+        "indoor": "no",
+        "panoramax": "8a80e87c-302a-42ff-8662-26aff3e5ce3e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5776352,
+          47.5539038
+        ]
+      },
+      "id": "node/5700864085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5744244897",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.600201,
+          47.5539655
+        ]
+      },
+      "id": "node/5744244897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5746263878",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72950967",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Hegenheimerstrasse/Colmarerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5717191,
+          47.5604471
+        ]
+      },
+      "id": "node/5746263878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5851112514",
+        "access": "yes",
+        "alt_name": "Nischenbrunnen Nadelberg",
+        "amenity": "drinking_water",
+        "covered": "yes",
+        "fountain": "drinking",
+        "heritage": "4",
+        "name": "Nischen-Brunnen",
+        "panoramax": "73c3716f-8b09-4736-b0ea-ee06c95b4aa5",
+        "source": "survey",
+        "wikidata": "Q29684735",
+        "wikimedia_commons": "Category:Nischenbrunnen Nadelberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5855835,
+          47.5575962
+        ]
+      },
+      "id": "node/5851112514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5888758456",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "yes",
+        "fountain": "drinking",
+        "name": "Jakobus-Brunnen",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5923716,
+          47.5503875
+        ]
+      },
+      "id": "node/5888758456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6277153000",
+        "amenity": "drinking_water",
+        "artist_name": "Willy Walther",
+        "man_made": "drinking_fountain",
+        "name": "Glasmännlein",
+        "start_date": "1958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6092362,
+          47.5617121
+        ]
+      },
+      "id": "node/6277153000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6295780086",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-08-03",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "operator": "Albankloster-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q72950792"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6009224,
+          47.554735
+        ]
+      },
+      "id": "node/6295780086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6295848585",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6093177,
+          47.5582342
+        ]
+      },
+      "id": "node/6295848585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6299759786",
+        "amenity": "drinking_water",
+        "operator": "St. Brigitta-Brunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5982406,
+          47.5539627
+        ]
+      },
+      "id": "node/6299759786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6301613106",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "name": "Kohleberg-Brunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5879754,
+          47.553984
+        ]
+      },
+      "id": "node/6301613106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6301613107",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-03-01",
+        "dog": "no",
+        "indoor": "no",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "name": "Trambahnhof-Brunnen",
+        "wheelchair": "yes",
+        "wikidata": "Q72965914",
+        "wikimedia_commons": "Category:Trambahnhof-Brunnen (Aeschenplatz, Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5962429,
+          47.5516794
+        ]
+      },
+      "id": "node/6301613107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6301613109",
+        "amenity": "drinking_water",
+        "name": "Broncefigur-Brunnen",
+        "wikidata": "Q72951756"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5881666,
+          47.5534434
+        ]
+      },
+      "id": "node/6301613109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6301613112",
+        "amenity": "drinking_water",
+        "name": "Vier Vögel-Brunnen",
+        "wikidata": "Q72966029"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5875105,
+          47.5533878
+        ]
+      },
+      "id": "node/6301613112"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6301613113",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fountain": "drinking",
+        "name": "Neptun-Brunnen",
+        "panoramax": "f290ebe8-b53c-4e68-a367-0517edae4588",
+        "wikidata": "Q72954330",
+        "wikimedia_commons": "Category:Neptunbrunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5907609,
+          47.5542075
+        ]
+      },
+      "id": "node/6301613113"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6301613114",
+        "access": "customers",
+        "amenity": "drinking_water",
+        "name": "Stock-Brunnen",
+        "operator": "Historisches Museum Basel",
+        "wheelchair": "yes",
+        "wikidata": "Q72967400"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5914303,
+          47.5519267
+        ]
+      },
+      "id": "node/6301613114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6372419796",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "drinking_water": "yes",
+        "heritage": "6",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "limestone",
+        "name": "Friedrich-Nietzsche-Brunnen",
+        "panoramax": "8112631b-e845-4131-b01e-4f7b4c62c2de",
+        "start_date": "1864",
+        "wheelchair": "yes",
+        "wikidata": "Q72954376",
+        "wikimedia_commons": "Category:Nietzsche-Brunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5808591,
+          47.5573831
+        ]
+      },
+      "id": "node/6372419796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6537956955",
+        "amenity": "drinking_water",
+        "check_date": "2024-07-30",
+        "fountain": "drinking",
+        "operator": "Kulturenplatz-Brunnen",
+        "wikidata": "Q72953575"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5905157,
+          47.5570394
+        ]
+      },
+      "id": "node/6537956955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6537956956",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "operator": "Rollerhof-Brunnen",
+        "wikidata": "Q72955016"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5905744,
+          47.5572522
+        ]
+      },
+      "id": "node/6537956956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6537956958",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q23062653",
+        "artist_name": "Hans Dobel",
+        "bottle": "yes",
+        "heritage": "4",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Sevogelbrunnen",
+        "operator": "IWB",
+        "panoramax": "8563fc7d-880d-4061-8731-7b9a96ed0098",
+        "subject": "Henman Sevogel",
+        "subject:wikidata": "Q19830094",
+        "wikidata": "Q20617028",
+        "wikimedia_commons": "Category:Sevogelbrunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5887705,
+          47.5586943
+        ]
+      },
+      "id": "node/6537956958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6541480227",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "operator": "Schlangenbrunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.594352,
+          47.5540148
+        ]
+      },
+      "id": "node/6541480227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549853771",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "fountain": "drinking",
+        "material": "stone",
+        "name": "Offenburgerhof-Brunnen",
+        "panoramax": "74b30e47-36fc-4719-9b97-23a1e9b12732",
+        "wheelchair": "no",
+        "wikidata": "Q72954459",
+        "wikimedia_commons": "File:Offenburgerhof-Brunnen.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5861069,
+          47.5597722
+        ]
+      },
+      "id": "node/6549853771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549853772",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "dog": "no",
+        "material": "stone",
+        "operator": "Spiegelhof-Brunnen",
+        "panoramax": "d490552b-5f2f-436b-952e-91f323971c94",
+        "panoramax:0": "9f74d251-2b26-4f16-857d-4c40523263af",
+        "wheelchair": "no",
+        "wikidata": "Q72965639"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.586412,
+          47.5600088
+        ]
+      },
+      "id": "node/6549853772"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549853775",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "fountain": "drinking",
+        "indoor": "no",
+        "material": "stone",
+        "name": "Storchenbrunnen",
+        "wheelchair": "no",
+        "wikidata": "Q72967424",
+        "wikimedia_commons": "Category:Storchenbrunnen (Peterskirchplatz 5, Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5849981,
+          47.5590593
+        ]
+      },
+      "id": "node/6549853775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549853783",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "name": "Vor Sonnenaufgang-Brunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5854922,
+          47.5589153
+        ]
+      },
+      "id": "node/6549853783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549853784",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "name": "Wand-Brunnen",
+        "seasonal": "yes",
+        "wikidata": "Q72966283",
+        "wikimedia_commons": "Category:Wand-Brunnen (Nadelberg 4, Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5852316,
+          47.5586122
+        ]
+      },
+      "id": "node/6549853784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549886085",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "fountain": "drinking",
+        "material": "stone",
+        "name": "Mädchen mit Vase-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q72953873",
+        "wikimedia_commons": "Category:Mädchen-mit-Vase-Brunnen (Nadelberg 4, Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5853254,
+          47.5585439
+        ]
+      },
+      "id": "node/6549886085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549886086",
+        "amenity": "drinking_water",
+        "name": "Hof-Brunnen",
+        "wikidata": "Q72952918"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5852127,
+          47.5583787
+        ]
+      },
+      "id": "node/6549886086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6549886096",
+        "amenity": "drinking_water",
+        "name": "Muschel-Brunnen",
+        "wikidata": "Q72954206"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5850087,
+          47.5582373
+        ]
+      },
+      "id": "node/6549886096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550684834",
+        "amenity": "drinking_water",
+        "name": "Hof-Brunnen",
+        "wikidata": "Q72952940"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5863481,
+          47.5560322
+        ]
+      },
+      "id": "node/6550684834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550684835",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "bottle": "yes",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "panoramax": "2c678ca0-da12-4ea8-a320-774ea61d6831",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72950984",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Gerbergasse/Falknerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5886175,
+          47.5565576
+        ]
+      },
+      "id": "node/6550684835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550684836",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Gerber-Brunnen",
+        "panoramax": "3c1a6ad0-e4ca-4a3f-8114-aabf64e97b99",
+        "wikidata": "Q72952642"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5884136,
+          47.5559549
+        ]
+      },
+      "id": "node/6550684836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550684838",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-01-08",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Aeschengraben-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q72950748"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5933273,
+          47.5504364
+        ]
+      },
+      "id": "node/6550684838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550684839",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "yes",
+        "name": "Männli-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q72953901"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5918424,
+          47.5500528
+        ]
+      },
+      "id": "node/6550684839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550684841",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "yes",
+        "fountain": "bubbler",
+        "name": "Krähe-Brunnen",
+        "wheelchair": "no",
+        "wikidata": "Q72953550"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5944781,
+          47.5511842
+        ]
+      },
+      "id": "node/6550684841"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6550684842",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "dog": "no",
+        "man_made": "drinking_fountain",
+        "material": "metal",
+        "name": "Basler Trinkbrünneli",
+        "wheelchair": "no",
+        "wikidata": "Q72936279"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5946486,
+          47.5513194
+        ]
+      },
+      "id": "node/6550684842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6603647485",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951019",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Burgfelderstrasse/Kannenfeldpark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5690335,
+          47.5644423
+        ]
+      },
+      "id": "node/6603647485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6660580882",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951282",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Unterer Rheinweg/Klingentalgraben)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5884576,
+          47.5631712
+        ]
+      },
+      "id": "node/6660580882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6660580883",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951396",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Schaffhauserrheinweg)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6021216,
+          47.5570179
+        ]
+      },
+      "id": "node/6660580883"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6685653657",
+        "amenity": "drinking_water",
+        "artwork_type": "sculpture",
+        "check_date": "2026-05-17",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5830575,
+          47.5674652
+        ]
+      },
+      "id": "node/6685653657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6751326331",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951212",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Feldbergstrasse/Müllheimerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5927499,
+          47.566677
+        ]
+      },
+      "id": "node/6751326331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6751326332",
+        "amenity": "drinking_water",
+        "artwork_type": "sculpture",
+        "check_date": "2024-07-11",
+        "man_made": "water_well",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5912864,
+          47.5639644
+        ]
+      },
+      "id": "node/6751326332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6764846014",
+        "amenity": "drinking_water",
+        "artwork_type": "sculpture",
+        "condition": "not_working",
+        "dog": "yes",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskbrunnen",
+        "operational_status": "operational",
+        "sculpture": "basilisk",
+        "start_date": "1996-10-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6101392,
+          47.5601749
+        ]
+      },
+      "id": "node/6764846014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6765022137",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "man_made": "water_well",
+        "panoramax": "186affbc-c39d-4658-8c9d-427fca4c7be2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5578565,
+          47.5635894
+        ]
+      },
+      "id": "node/6765022137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6778626380",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "name": "Schnecken-Brunnen",
+        "wikidata": "Q72965493"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6110821,
+          47.5544172
+        ]
+      },
+      "id": "node/6778626380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6778626492",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-08-24",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "wheelchair": "no",
+        "wikidata": "Q72965535"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6055248,
+          47.5525848
+        ]
+      },
+      "id": "node/6778626492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6778626493",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6088739,
+          47.5518811
+        ]
+      },
+      "id": "node/6778626493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6778626525",
+        "amenity": "drinking_water",
+        "basin_count": "3",
+        "check_date": "2026-03-01",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6040775,
+          47.5507905
+        ]
+      },
+      "id": "node/6778626525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6778924627",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Äänisbreetli-Brunnen",
+        "wikidata": "Q72950711"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6294696,
+          47.5629028
+        ]
+      },
+      "id": "node/6778924627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6778932057",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Heugumpervogel-Brunnen",
+        "wikidata": "Q72952851"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6012644,
+          47.5323148
+        ]
+      },
+      "id": "node/6778932057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6779994843",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "cb694fa2-28c5-4201-80c2-f7e522ee6d0c"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5843917,
+          47.5567569
+        ]
+      },
+      "id": "node/6779994843"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780001631",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Dorfplatz-Brunnen",
+        "wikidata": "Q72951967"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6009813,
+          47.5299877
+        ]
+      },
+      "id": "node/6780001631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780016265",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "e7785af7-0fbc-488b-9449-ac4533e9834f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5783879,
+          47.5567338
+        ]
+      },
+      "id": "node/6780016265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780027497",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "7960d196-3e67-46b2-bcad-dbd68a57b9eb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5792545,
+          47.5591359
+        ]
+      },
+      "id": "node/6780027497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780028494",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Engel mit Delphin-Brunnen",
+        "wikidata": "Q72952081"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6183686,
+          47.5519362
+        ]
+      },
+      "id": "node/6780028494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780081303",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6244011,
+          47.5782534
+        ]
+      },
+      "id": "node/6780081303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780108260",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5613389,
+          47.5622864
+        ]
+      },
+      "id": "node/6780108260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780275817",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Verbindungsschacht-Brunnen",
+        "wikidata": "Q72966006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5989795,
+          47.5324833
+        ]
+      },
+      "id": "node/6780275817"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780308411",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-03-22",
+        "dog": "yes",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q74371611"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5978538,
+          47.5583064
+        ]
+      },
+      "id": "node/6780308411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6780308475",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "man_made": "drinking_fountain",
+        "material": "metal",
+        "wheelchair": "yes",
+        "wikidata": "Q74416983"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5974342,
+          47.5571206
+        ]
+      },
+      "id": "node/6780308475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6782051258",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "man_made": "drinking_fountain",
+        "panoramax": "e6583def-56dd-4170-8c0d-e302a215019b"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5682,
+          47.5538803
+        ]
+      },
+      "id": "node/6782051258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6782076401",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "bottle": "yes",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "panoramax": "4ba5761d-6cb9-45e0-ad7b-1851b94d982b",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951338",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Schützenmattpark)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5749238,
+          47.5517785
+        ]
+      },
+      "id": "node/6782076401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6782260906",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2024-07-25",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Knabe mit Gans-Brunnen",
+        "wheelchair": "yes",
+        "wikidata": "Q67202730"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.590436,
+          47.5493687
+        ]
+      },
+      "id": "node/6782260906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6784798776",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951359",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Burgfelderstrasse/Waldighoferstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5616496,
+          47.5682055
+        ]
+      },
+      "id": "node/6784798776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6784964160",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951232",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Wiesenplatz)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5916198,
+          47.5768802
+        ]
+      },
+      "id": "node/6784964160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800087745",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "bottle": "yes",
+        "check_date": "2024-07-16",
+        "colour": "darkgreen",
+        "dog": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "metal",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wheelchair": "yes",
+        "wikidata": "Q74367814",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Totentanz)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5856312,
+          47.5619403
+        ]
+      },
+      "id": "node/6800087745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800320230",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951243",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Kleinhüningerstrasse/Klybeckstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5888609,
+          47.5757402
+        ]
+      },
+      "id": "node/6800320230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800369644",
+        "amenity": "drinking_water",
+        "artwork_type": "sculpture",
+        "check_date": "2026-02-17",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskbrunnen",
+        "sculpture": "basilisk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5947681,
+          47.5686674
+        ]
+      },
+      "id": "node/6800369644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800398664",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951377",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Klingentalstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.592297,
+          47.5632276
+        ]
+      },
+      "id": "node/6800398664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800442509",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951050",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Clarahofweg/Hammerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5972696,
+          47.5619958
+        ]
+      },
+      "id": "node/6800442509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800668221",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "drinking_water": "yes",
+        "fountain": "decorative",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "name": "Affen-Brunnen",
+        "panoramax": "bde0e120-0c39-4e07-a3ee-c200da05f3c9",
+        "website": "https://www.brunnenfuehrer.ch/brunnen/affen.htm",
+        "wheelchair": "no",
+        "wikidata": "Q74407743"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5864168,
+          47.5581685
+        ]
+      },
+      "id": "node/6800668221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6800716202",
+        "amenity": "drinking_water",
+        "check_date": "2024-08-09",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5963564,
+          47.5499081
+        ]
+      },
+      "id": "node/6800716202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6801960962",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "man_made": "drinking_fountain",
+        "panoramax": "b9a79726-b04a-4e55-88c1-7d9a39d26bdb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5655543,
+          47.5570578
+        ]
+      },
+      "id": "node/6801960962"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6802038704",
+        "amenity": "drinking_water",
+        "check_date": "2024-07-16",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5822372,
+          47.565691
+        ]
+      },
+      "id": "node/6802038704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6802038718",
+        "amenity": "drinking_water",
+        "check_date": "2024-07-16",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5813986,
+          47.5667199
+        ]
+      },
+      "id": "node/6802038718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6802229511",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q74503999"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5931739,
+          47.5600163
+        ]
+      },
+      "id": "node/6802229511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6802248818",
+        "amenity": "drinking_water",
+        "check_date": "2026-03-14",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6031706,
+          47.5471574
+        ]
+      },
+      "id": "node/6802248818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6802962380",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.604121,
+          47.5805209
+        ]
+      },
+      "id": "node/6802962380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6803086781",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6040977,
+          47.5365821
+        ]
+      },
+      "id": "node/6803086781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6804168204",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5918947,
+          47.5838987
+        ]
+      },
+      "id": "node/6804168204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6804233819",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "wikidata": "Q72965877"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5946091,
+          47.542908
+        ]
+      },
+      "id": "node/6804233819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6804252631",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2024-08-12",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "wheelchair": "yes",
+        "wikidata": "Q72967519"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5911105,
+          47.5562107
+        ]
+      },
+      "id": "node/6804252631"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6804276146",
+        "amenity": "drinking_water",
+        "check_date": "2026-03-03",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5901261,
+          47.5398734
+        ]
+      },
+      "id": "node/6804276146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6804292705",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6158187,
+          47.5740483
+        ]
+      },
+      "id": "node/6804292705"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814713555",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5884572,
+          47.5787248
+        ]
+      },
+      "id": "node/6814713555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814791709",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6065249,
+          47.5746966
+        ]
+      },
+      "id": "node/6814791709"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814832548",
+        "amenity": "drinking_water",
+        "check_date": "2026-02-25",
+        "fee": "no",
+        "fountain": "bubbler",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5948267,
+          47.5635653
+        ]
+      },
+      "id": "node/6814832548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814870480",
+        "amenity": "drinking_water",
+        "check_date": "2024-08-09",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.598164,
+          47.5418605
+        ]
+      },
+      "id": "node/6814870480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814907988",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Märchen-Brunnen",
+        "start_date": "1959",
+        "wikidata": "Q72953923"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6144129,
+          47.5505181
+        ]
+      },
+      "id": "node/6814907988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814926853",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "wikidata": "Q72952418"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5573655,
+          47.5456679
+        ]
+      },
+      "id": "node/6814926853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814939388",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "319afaa3-07d7-41fc-905b-eee023262238"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5740568,
+          47.5621349
+        ]
+      },
+      "id": "node/6814939388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814965691",
+        "amenity": "drinking_water",
+        "check_date": "2024-07-18",
+        "historic": "drinking_fountain",
+        "indoor": "no",
+        "man_made": "drinking_fountain",
+        "name": "Kannenfeldplatz-Brunnen",
+        "wikidata": "Q72953158"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5735601,
+          47.5654816
+        ]
+      },
+      "id": "node/6814965691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814972795",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "2ef1970e-6955-4608-a4f0-d3092d996958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5783752,
+          47.5491125
+        ]
+      },
+      "id": "node/6814972795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814992792",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5955803,
+          47.5399056
+        ]
+      },
+      "id": "node/6814992792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815046208",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "c904507c-aedb-440d-9dd5-a0b546e2366e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5651906,
+          47.5532517
+        ]
+      },
+      "id": "node/6815046208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815323150",
+        "amenity": "drinking_water",
+        "check_date": "2024-07-16",
+        "heritage": "4",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Faule-Magd-Brunnen",
+        "wikidata": "Q20614957",
+        "wikimedia_commons": "Category:Faule-Magd-Brunnen (Basel)",
+        "wikipedia": "als:Dr Fuuli-Magd-Brunne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5845548,
+          47.5635955
+        ]
+      },
+      "id": "node/6815323150"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815494756",
+        "amenity": "drinking_water",
+        "check_date": "2026-05-10",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.598126,
+          47.5411709
+        ]
+      },
+      "id": "node/6815494756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815500137",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "wikidata": "Q72951921"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.617595,
+          47.5416972
+        ]
+      },
+      "id": "node/6815500137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815503256",
+        "amenity": "drinking_water",
+        "check_date": "2025-10-30",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "wikidata": "Q72951618"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6175755,
+          47.5652685
+        ]
+      },
+      "id": "node/6815503256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815505812",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5691215,
+          47.5473961
+        ]
+      },
+      "id": "node/6815505812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815538615",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "panoramax": "d5f23187-1b2e-47d7-ad5a-5095ebc302af"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5877107,
+          47.5584001
+        ]
+      },
+      "id": "node/6815538615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815566098",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Muul Halte-Brunnen",
+        "start_date": "1952",
+        "wikidata": "Q72954306"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6144858,
+          47.5499056
+        ]
+      },
+      "id": "node/6815566098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815583942",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5853491,
+          47.5324186
+        ]
+      },
+      "id": "node/6815583942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815625620",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5954051,
+          47.5653211
+        ]
+      },
+      "id": "node/6815625620"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815680936",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Breite-Brunnen",
+        "wikidata": "Q72951716"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6144094,
+          47.5552751
+        ]
+      },
+      "id": "node/6815680936"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815690329",
+        "amenity": "drinking_water",
+        "check_date": "2025-10-17",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5964763,
+          47.5701245
+        ]
+      },
+      "id": "node/6815690329"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815736985",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5978247,
+          47.5394323
+        ]
+      },
+      "id": "node/6815736985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815743512",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "indoor": "no",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "no",
+        "wikidata": "Q74426958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5950982,
+          47.5600166
+        ]
+      },
+      "id": "node/6815743512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815764892",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5977483,
+          47.5545057
+        ]
+      },
+      "id": "node/6815764892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815864166",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-02-25",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "no",
+        "wikidata": "Q72951774"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5956198,
+          47.5578412
+        ]
+      },
+      "id": "node/6815864166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815947914",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "no",
+        "wikidata": "Q72954887"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5955761,
+          47.5591281
+        ]
+      },
+      "id": "node/6815947914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815983627",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q72951811"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5967091,
+          47.5579658
+        ]
+      },
+      "id": "node/6815983627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815983634",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q74421757"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5964393,
+          47.5584736
+        ]
+      },
+      "id": "node/6815983634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816015648",
+        "amenity": "drinking_water",
+        "check_date": "2025-10-08",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5820106,
+          47.5641722
+        ]
+      },
+      "id": "node/6816015648"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816040831",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6123719,
+          47.5698045
+        ]
+      },
+      "id": "node/6816040831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816067500",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2025-05-17",
+        "fee": "no",
+        "historic": "drinking_fountain",
+        "indoor": "no",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6031764,
+          47.5638945
+        ]
+      },
+      "id": "node/6816067500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816073383",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6149633,
+          47.5741035
+        ]
+      },
+      "id": "node/6816073383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816074740",
+        "amenity": "drinking_water",
+        "check_date": "2026-04-09",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5787608,
+          47.5644872
+        ]
+      },
+      "id": "node/6816074740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816086925",
+        "amenity": "drinking_water",
+        "check_date": "2026-08-06",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6139123,
+          47.5529159
+        ]
+      },
+      "id": "node/6816086925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816108882",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "panoramax": "e5db1a55-38ec-400c-8d3a-4e64550b712f"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5899965,
+          47.5579341
+        ]
+      },
+      "id": "node/6816108882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816121121",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5975924,
+          47.5762841
+        ]
+      },
+      "id": "node/6816121121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816129018",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "historic": "drinking_fountain",
+        "lit": "no",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5752006,
+          47.5610531
+        ]
+      },
+      "id": "node/6816129018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816152120",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5944455,
+          47.5614578
+        ]
+      },
+      "id": "node/6816152120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816155815",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5970057,
+          47.5591191
+        ]
+      },
+      "id": "node/6816155815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816265523",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5613422,
+          47.5623351
+        ]
+      },
+      "id": "node/6816265523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816265811",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q74428199"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5935874,
+          47.5606232
+        ]
+      },
+      "id": "node/6816265811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816280266",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "man_made": "drinking_fountain",
+        "panoramax": "929f8a47-9606-402e-9f03-7de6e73a29dd",
+        "wheelchair": "yes",
+        "wikidata": "Q72966249"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.590811,
+          47.5566071
+        ]
+      },
+      "id": "node/6816280266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816280640",
+        "amenity": "drinking_water",
+        "check_date": "2024-05-28",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5678844,
+          47.5544913
+        ]
+      },
+      "id": "node/6816280640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816282823",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2024-08-12",
+        "dog": "no",
+        "man_made": "drinking_fountain",
+        "wheelchair": "yes",
+        "wikidata": "Q74440369",
+        "wikimedia_commons": "Category:Brunnen Schulhaus Rittergasse (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5926978,
+          47.5554266
+        ]
+      },
+      "id": "node/6816282823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816301616",
+        "amenity": "drinking_water",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "wikidata": "Q72967566"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6058078,
+          47.5648346
+        ]
+      },
+      "id": "node/6816301616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816301722",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.586563,
+          47.5432166
+        ]
+      },
+      "id": "node/6816301722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6816305860",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2024-08-12",
+        "dog": "no",
+        "man_made": "drinking_fountain",
+        "wheelchair": "yes",
+        "wikidata": "Q72966547"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5908551,
+          47.556558
+        ]
+      },
+      "id": "node/6816305860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6820889549",
+        "amenity": "drinking_water",
+        "artwork_type": "sculpture",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5764453,
+          47.5726902
+        ]
+      },
+      "id": "node/6820889549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6838722395",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6243327,
+          47.5781565
+        ]
+      },
+      "id": "node/6838722395"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6840681760",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5955277,
+          47.5413364
+        ]
+      },
+      "id": "node/6840681760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6866975058",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "fountain": "drinking",
+        "panoramax": "4c3996bf-8bb5-438f-997f-f7dc01ffe1a4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5735665,
+          47.548397
+        ]
+      },
+      "id": "node/6866975058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6964240683",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "fountain": "bubbler",
+        "material": "metal",
+        "wheelchair": "yes",
+        "wikidata": "Q72951533"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.597541,
+          47.5577254
+        ]
+      },
+      "id": "node/6964240683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6964400058",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72950729",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Kartause St. Margarethental)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5971104,
+          47.5581596
+        ]
+      },
+      "id": "node/6964400058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6964521778",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q72968002"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5964185,
+          47.5582139
+        ]
+      },
+      "id": "node/6964521778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6969765453",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "wheelchair": "limited",
+        "wikidata": "Q72952473"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5920736,
+          47.5554056
+        ]
+      },
+      "id": "node/6969765453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6969811498",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "fountain": "drinking",
+        "wheelchair": "yes",
+        "wikidata": "Q72965958",
+        "wikimedia_commons": "Category:Trog-Brunnen Zum Isaak (Münsterplatz 16, Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5910156,
+          47.5563803
+        ]
+      },
+      "id": "node/6969811498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7388329921",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "wikidata": "Q72951856"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5916211,
+          47.564407
+        ]
+      },
+      "id": "node/7388329921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7540243142",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "fountain": "drinking",
+        "material": "stone",
+        "wheelchair": "yes",
+        "wikidata": "Q74399799"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5812984,
+          47.5589479
+        ]
+      },
+      "id": "node/7540243142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7692462728",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5930138,
+          47.5390754
+        ]
+      },
+      "id": "node/7692462728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7775211638",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fountain": "bubbler",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5790641,
+          47.5716171
+        ]
+      },
+      "id": "node/7775211638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7817757855",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6089281,
+          47.5408141
+        ]
+      },
+      "id": "node/7817757855"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7817757856",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.608238,
+          47.5406894
+        ]
+      },
+      "id": "node/7817757856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7817757879",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6079798,
+          47.5403434
+        ]
+      },
+      "id": "node/7817757879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7817899488",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6086018,
+          47.5401723
+        ]
+      },
+      "id": "node/7817899488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041247493",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5954892,
+          47.5310004
+        ]
+      },
+      "id": "node/8041247493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041247503",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.596315,
+          47.5316136
+        ]
+      },
+      "id": "node/8041247503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8041247504",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5967187,
+          47.531811
+        ]
+      },
+      "id": "node/8041247504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8059811312",
+        "amenity": "drinking_water",
+        "man_made": "drinking_fountain",
+        "name": "Breite Bad-Brunnen",
+        "wikidata": "Q72951703"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6104764,
+          47.5560987
+        ]
+      },
+      "id": "node/8059811312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8625388398",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.606874,
+          47.564009
+        ]
+      },
+      "id": "node/8625388398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9155722959",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6032564,
+          47.5768163
+        ]
+      },
+      "id": "node/9155722959"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9510864002",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.589393,
+          47.5518172
+        ]
+      },
+      "id": "node/9510864002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9964125834",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5760171,
+          47.5649833
+        ]
+      },
+      "id": "node/9964125834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10088742471",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.598229,
+          47.5699779
+        ]
+      },
+      "id": "node/10088742471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10536689893",
+        "amenity": "drinking_water",
+        "fountain": "drinking",
+        "material": "stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.575612,
+          47.5491538
+        ]
+      },
+      "id": "node/10536689893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10735220728",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fee": "no",
+        "fountain": "bubbler",
+        "operator": "Stadt Basel",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5877285,
+          47.5461133
+        ]
+      },
+      "id": "node/10735220728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10853041928",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6039309,
+          47.5531428
+        ]
+      },
+      "id": "node/10853041928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11148233565",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "fountain": "drinking",
+        "indoor": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5883527,
+          47.5583026
+        ]
+      },
+      "id": "node/11148233565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991991726",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6070273,
+          47.540486
+        ]
+      },
+      "id": "node/11991991726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991991727",
+        "amenity": "drinking_water",
+        "man_made": "water_tap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6077978,
+          47.5400401
+        ]
+      },
+      "id": "node/11991991727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991991728",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6087069,
+          47.5404786
+        ]
+      },
+      "id": "node/11991991728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991991746",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6102177,
+          47.540311
+        ]
+      },
+      "id": "node/11991991746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991991747",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6100493,
+          47.540023
+        ]
+      },
+      "id": "node/11991991747"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11991991748",
+        "amenity": "drinking_water",
+        "fountain": "drinking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6068536,
+          47.5412065
+        ]
+      },
+      "id": "node/11991991748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12334591025",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5891525,
+          47.5570268
+        ]
+      },
+      "id": "node/12334591025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13111830808",
+        "amenity": "drinking_water",
+        "survey:date": "2025-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5820764,
+          47.5738134
+        ]
+      },
+      "id": "node/13111830808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13111830809",
+        "amenity": "drinking_water",
+        "survey:date": "2025-09-01"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5816708,
+          47.5737017
+        ]
+      },
+      "id": "node/13111830809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13128033627",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "dog": "no",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "material": "stone",
+        "name": "Rümelins-Brunnen",
+        "panoramax": "817f60a7-7c72-483c-a30d-8d858bb83835",
+        "wheelchair": "no",
+        "wikidata": "Q72955092",
+        "wikimedia_commons": "Category:Rümelins-Brunnen (Basel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5871236,
+          47.5569234
+        ]
+      },
+      "id": "node/13128033627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13128033628",
+        "alt_name": "Gemsberg-Brunnen",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "historic": "drinking_fountain",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Basel_2012-09-28_Mattes_%28101%29.JPG",
+        "man_made": "drinking_fountain",
+        "name": "Gems-Brunnen",
+        "wikidata": "Q72936534",
+        "wikimedia_commons": "Category:Gems-Brunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5864062,
+          47.5564566
+        ]
+      },
+      "id": "node/13128033628"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13143308473",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6051525,
+          47.5598208
+        ]
+      },
+      "id": "node/13143308473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13259744393",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5866885,
+          47.5537549
+        ]
+      },
+      "id": "node/13259744393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13624944667",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72951434",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Entenweidstrasse/Gasstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5739765,
+          47.56797
+        ]
+      },
+      "id": "node/13624944667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13647695881",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q72950933",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Riehenstrasse/Hammerstrasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5977253,
+          47.5605476
+        ]
+      },
+      "id": "node/13647695881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13658517101",
+        "amenity": "drinking_water",
+        "direction": "5",
+        "wikimedia_commons": "File:Steinenberg4-6 20260318 110945.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5910382,
+          47.5540633
+        ]
+      },
+      "id": "node/13658517101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13674225746",
+        "amenity": "drinking_water",
+        "artist:wikidata": "Q14954590",
+        "artist_name": "Wilhelm Bubeck",
+        "artwork_type": "sculpture",
+        "colour": "darkgreen",
+        "historic": "drinking_fountain",
+        "man_made": "drinking_fountain",
+        "name": "Basiliskenbrunnen",
+        "sculpture": "basilisk",
+        "tourism": "artwork",
+        "wikidata": "Q138779658",
+        "wikimedia_commons": "Category:Basiliskenbrunnen (Brunngässlein/Malzgasse)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5962228,
+          47.5521771
+        ]
+      },
+      "id": "node/13674225746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13754189301",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5727591,
+          47.5709411
+        ]
+      },
+      "id": "node/13754189301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13764179556",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.570222,
+          47.565872
+        ]
+      },
+      "id": "node/13764179556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13859977066",
+        "access": "private",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6026543,
+          47.5478201
+        ]
+      },
+      "id": "node/13859977066"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13906549316",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "check_date": "2026-08-03",
+        "description": "Brunnen mit Trinkwasser auf dem Bahnsteig. Das Wasser läuft dauernd.",
+        "fee": "no",
+        "fixme": "Wird in der App Maps.ME nicht angezeigt.",
+        "level": "0",
+        "lit": "yes",
+        "man_made": "water_tap",
+        "operator": "SBB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5902454,
+          47.547142
+        ]
+      },
+      "id": "node/13906549316"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14048120941",
+        "amenity": "drinking_water",
+        "fountain": "bubbler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5890315,
+          47.547541
+        ]
+      },
+      "id": "node/14048120941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/14219149012",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "fountain": "drinking",
+        "name": "Schlangen-Brunnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5946721,
+          47.5634238
+        ]
+      },
+      "id": "node/14219149012"
+    }
+  ]
+}

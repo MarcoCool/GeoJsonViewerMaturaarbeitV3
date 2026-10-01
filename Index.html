@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoJSON-Viewer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+  :root { --bg:#f6f7f9; --panel:#fff; --text:#1d2330; --muted:#667085; --line:#e3e6eb; --accent:#2563eb; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; height:100%; font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; color:var(--text); background:var(--bg); }
+  .app { display:flex; height:100%; }
+  aside { width:320px; background:var(--panel); border-right:1px solid var(--line); display:flex; flex-direction:column; padding:16px; gap:14px; overflow-y:auto; }
+  h1 { font-size:18px; margin:0; }
+  p.hint { margin:0; font-size:13px; color:var(--muted); line-height:1.4; }
+  .drop { border:2px dashed var(--line); border-radius:10px; padding:18px; text-align:center; font-size:14px; color:var(--muted); cursor:pointer; transition:.15s; }
+  .drop.over, .drop:hover { border-color:var(--accent); color:var(--accent); background:#eff4ff; }
+  label.small { font-size:12px; color:var(--muted); display:block; margin-bottom:4px; }
+  select { width:100%; padding:6px; border:1px solid var(--line); border-radius:6px; font:inherit; font-size:14px; }
+  ul { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  li { border:1px solid var(--line); border-radius:8px; padding:8px 10px; font-size:13px; }
+  li .row { display:flex; align-items:center; gap:8px; }
+  li .name { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-weight:600; }
+  li .meta { color:var(--muted); font-size:12px; margin-top:3px; }
+  li input[type=color] { width:24px; height:24px; border:none; padding:0; background:none; cursor:pointer; }
+  button { border:1px solid var(--line); background:#fff; border-radius:6px; padding:3px 7px; cursor:pointer; font-size:12px; }
+  button:hover { border-color:var(--accent); color:var(--accent); }
+  .msg { font-size:13px; padding:8px 10px; border-radius:6px; display:none; }
+  .msg.err { display:block; background:#fdecec; color:#a4161a; }
+  .msg.ok { display:block; background:#e8f6ee; color:#1a7f45; }
+  #map { flex:1; }
+  .popup table { border-collapse:collapse; font-size:12px; }
+  .popup td { padding:2px 6px; border-bottom:1px solid #eee; vertical-align:top; }
+  .popup td:first-child { font-weight:600; color:#444; }
+  @media (max-width: 700px) {
+    .app { flex-direction:column; }
+    aside { width:100%; max-height:45%; border-right:none; border-bottom:1px solid var(--line); }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <aside>
+    <h1>GeoJSON-Viewer</h1>
+    <p class="hint">Zieh GeoJSON-Dateien hierher oder klick auf das Feld. Koordinaten in WGS84 sowie in den Schweizer Systemen LV95 und LV03 werden erkannt.</p>
+    <div class="drop" id="drop">Dateien hier ablegen<br>oder klicken zum Auswählen</div>
+    <input type="file" id="file" accept=".geojson,.json,application/geo+json,application/json" multiple hidden>
+    <div class="msg" id="msg"></div>
+    <div>
+      <label class="small" for="basemap">Hintergrundkarte</label>
+      <select id="basemap">
+        <option value="swiss">swisstopo Landeskarte</option>
+        <option value="swissgrey">swisstopo Landeskarte (grau)</option>
+        <option value="swissimage">swisstopo Luftbild</option>
+        <option value="osm">OpenStreetMap</option>
+      </select>
+    </div>
+    <div>
+      <label class="small">Geladene Ebenen</label>
+      <ul id="layers"><li style="color:var(--muted)">Noch keine Dateien geladen.</li></ul>
+    </div>
+  </aside>
+  <div id="map"></div>
+</div>
+
+<script>
+// ---------- Karte ----------
+const map = L.map('map').setView([46.8, 8.23], 8); // Schweiz
+
+const swissUrl = id => `https://wmts.geo.admin.ch/1.0.0/${id}/default/current/3857/{z}/{x}/{y}.jpeg`;
+const swissAttr = '&copy; <a href="https://www.swisstopo.admin.ch/" target="_blank">swisstopo</a>';
+const basemaps = {
+  swiss:      L.tileLayer(swissUrl('ch.swisstopo.pixelkarte-farbe'), { maxZoom: 19, attribution: swissAttr }),
+  swissgrey:  L.tileLayer(swissUrl('ch.swisstopo.pixelkarte-grau'),  { maxZoom: 19, attribution: swissAttr }),
+  swissimage: L.tileLayer(swissUrl('ch.swisstopo.swissimage'),       { maxZoom: 20, attribution: swissAttr }),
+  osm:        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; OpenStreetMap-Mitwirkende' })
+};
+let currentBase = basemaps.swiss.addTo(map);
+document.getElementById('basemap').addEventListener('change', e => {
+  map.removeLayer(currentBase);
+  currentBase = basemaps[e.target.value].addTo(map);
+  currentBase.bringToBack();
+});
+L.control.scale({ imperial: false }).addTo(map);
+
+// ---------- Koordinaten-Umrechnung (Näherungsformeln swisstopo, Genauigkeit ca. 1 m) ----------
+function swissToWgs84(E, N, system) {
+  const y = system === 'LV95' ? (E - 2600000) / 1e6 : (E - 600000) / 1e6;
+  const x = system === 'LV95' ? (N - 1200000) / 1e6 : (N - 200000) / 1e6;
+  const lambda = 2.6779094 + 4.728982 * y + 0.791484 * y * x + 0.1306 * y * x * x - 0.0436 * y ** 3;
+  const phi = 16.9023892 + 3.238272 * x - 0.270978 * y * y - 0.002528 * x * x - 0.0447 * y * y * x - 0.0140 * x ** 3;
+  return [lambda * 100 / 36, phi * 100 / 36];
+}
+
+function firstCoord(geom) {
+  if (!geom) return null;
+  if (geom.type === 'GeometryCollection') {
+    for (const g of geom.geometries) { const c = firstCoord(g); if (c) return c; }
+    return null;
+  }
+  let c = geom.coordinates;
+  while (Array.isArray(c) && Array.isArray(c[0])) c = c[0];
+  return Array.isArray(c) && typeof c[0] === 'number' ? c : null;
+}
+
+function detectSystem(gj) {
+  const name = gj.crs?.properties?.name || '';
+  if (/2056/.test(name)) return 'LV95';
+  if (/21781/.test(name)) return 'LV03';
+  const feats = gj.type === 'FeatureCollection' ? gj.features : gj.type === 'Feature' ? [gj] : [{ geometry: gj }];
+  for (const f of feats) {
+    const c = firstCoord(f.geometry);
+    if (!c) continue;
+    const [a, b] = c;
+    if (Math.abs(a) <= 180 && Math.abs(b) <= 90) return 'WGS84';
+    if (a > 2400000 && a < 2900000 && b > 1050000 && b < 1350000) return 'LV95';
+    if (a > 400000 && a < 900000 && b > 50000 && b < 350000) return 'LV03';
+    return 'unbekannt';
+  }
+  return 'WGS84';
+}
+
+function convertCoords(c, system) {
+  if (typeof c[0] === 'number') {
+    const [lon, lat] = swissToWgs84(c[0], c[1], system);
+    return c.length > 2 ? [lon, lat, c[2]] : [lon, lat];
+  }
+  return c.map(cc => convertCoords(cc, system));
+}
+function convertGeom(g, system) {
+  if (!g) return g;
+  if (g.type === 'GeometryCollection') return { ...g, geometries: g.geometries.map(x => convertGeom(x, system)) };
+  return { ...g, coordinates: convertCoords(g.coordinates, system) };
+}
+function convertAll(gj, system) {
+  if (gj.type === 'FeatureCollection') return { ...gj, crs: undefined, features: gj.features.map(f => ({ ...f, geometry: convertGeom(f.geometry, system) })) };
+  if (gj.type === 'Feature') return { ...gj, geometry: convertGeom(gj.geometry, system) };
+  return convertGeom(gj, system);
+}
+
+// ---------- Ebenen ----------
+const palette = ['#2563eb', '#dc2626', '#16a34a', '#ea580c', '#9333ea', '#0891b2', '#ca8a04', '#db2777'];
+const layers = [];
+let colorIndex = 0;
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+}
+
+function popupHtml(feature) {
+  const props = feature.properties || {};
+  const keys = Object.keys(props);
+  if (!keys.length) return '<div class="popup"><em>Keine Attribute</em></div>';
+  const rows = keys.map(k => {
+    let v = props[k];
+    if (v !== null && typeof v === 'object') v = JSON.stringify(v);
+    return `<tr><td>${escapeHtml(k)}</td><td>${escapeHtml(v ?? '')}</td></tr>`;
+  }).join('');
+  return `<div class="popup"><table>${rows}</table></div>`;
+}
+
+function styleFor(color) {
+  return { color, weight: 2, opacity: 0.9, fillColor: color, fillOpacity: 0.25 };
+}
+
+function countFeatures(gj) {
+  if (gj.type === 'FeatureCollection') return gj.features.length;
+  return 1;
+}
+
+function addLayer(name, gj) {
+  const system = detectSystem(gj);
+  if (system === 'unbekannt') throw new Error('Das Koordinatensystem konnte nicht erkannt werden. Unterstützt sind WGS84, LV95 und LV03.');
+  const data = system === 'WGS84' ? gj : convertAll(gj, system);
+  const color = palette[colorIndex++ % palette.length];
+
+  const layer = L.geoJSON(data, {
+    style: () => styleFor(color),
+    pointToLayer: (f, latlng) => L.circleMarker(latlng, { radius: 6, ...styleFor(color), fillOpacity: 0.8 }),
+    onEachFeature: (f, l) => l.bindPopup(popupHtml(f), { maxWidth: 320 })
+  }).addTo(map);
+
+  const entry = { name, layer, color, system, count: countFeatures(gj), visible: true };
+  layers.push(entry);
+  renderList();
+
+  const b = layer.getBounds();
+  if (b.isValid()) map.fitBounds(b, { padding: [30, 30] });
+  return entry;
+}
+
+function renderList() {
+  const ul = document.getElementById('layers');
+  ul.innerHTML = '';
+  if (!layers.length) { ul.innerHTML = '<li style="color:var(--muted)">Noch keine Dateien geladen.</li>'; return; }
+  layers.forEach((e, i) => {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <div class="row">
+        <input type="checkbox" ${e.visible ? 'checked' : ''} title="Ein-/ausblenden">
+        <input type="color" value="${e.color}" title="Farbe ändern">
+        <span class="name" title="${escapeHtml(e.name)}">${escapeHtml(e.name)}</span>
+        <button data-act="zoom" title="Auf Ebene zoomen">Zoom</button>
+        <button data-act="del" title="Entfernen">✕</button>
+      </div>
+      <div class="meta">${e.count} Objekt(e) · Koordinaten: ${e.system}${e.system !== 'WGS84' ? ' → WGS84 umgerechnet' : ''}</div>`;
+    li.querySelector('input[type=checkbox]').onchange = ev => {
+      e.visible = ev.target.checked;
+      e.visible ? e.layer.addTo(map) : map.removeLayer(e.layer);
+    };
+    li.querySelector('input[type=color]').oninput = ev => {
+      e.color = ev.target.value;
+      e.layer.setStyle(styleFor(e.color));
+    };
+    li.querySelector('[data-act=zoom]').onclick = () => {
+      const b = e.layer.getBounds(); if (b.isValid()) map.fitBounds(b, { padding: [30, 30] });
+    };
+    li.querySelector('[data-act=del]').onclick = () => {
+      map.removeLayer(e.layer); layers.splice(i, 1); renderList();
+    };
+    ul.appendChild(li);
+  });
+}
+
+// ---------- Dateien laden ----------
+const msg = document.getElementById('msg');
+function showMsg(text, type) { msg.textContent = text; msg.className = 'msg ' + type; }
+
+function handleFiles(files) {
+  const errors = [], ok = [];
+  let pending = files.length;
+  if (!pending) return;
+  [...files].forEach(file => {
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const gj = JSON.parse(reader.result);
+        if (!gj || !gj.type) throw new Error('Keine gültige GeoJSON-Struktur (Feld «type» fehlt).');
+        addLayer(file.name, gj);
+        ok.push(file.name);
+      } catch (err) {
+        errors.push(`${file.name}: ${err.message}`);
+      }
+      if (--pending === 0) {
+        if (errors.length) showMsg(errors.join('\n'), 'err');
+        else showMsg(`${ok.length} Datei(en) geladen.`, 'ok');
+      }
+    };
+    reader.onerror = () => { errors.push(`${file.name}: Datei konnte nicht gelesen werden.`); if (--pending === 0) showMsg(errors.join('\n'), 'err'); };
+    reader.readAsText(file);
+  });
+}
+
+const drop = document.getElementById('drop');
+const fileInput = document.getElementById('file');
+drop.onclick = () => fileInput.click();
+fileInput.onchange = () => { handleFiles(fileInput.files); fileInput.value = ''; };
+['dragenter', 'dragover'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add('over'); }));
+['dragleave', 'drop'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove('over'); }));
+drop.addEventListener('drop', e => handleFiles(e.dataTransfer.files));
+// Dateien auch direkt auf die Karte ziehen
+const mapEl = document.getElementById('map');
+mapEl.addEventListener('dragover', e => e.preventDefault());
+mapEl.addEventListener('drop', e => { e.preventDefault(); handleFiles(e.dataTransfer.files); });
+</script>
+</body>
+</html>
